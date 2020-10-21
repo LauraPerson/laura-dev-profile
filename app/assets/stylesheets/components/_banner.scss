@@ -12,3 +12,11 @@
   margin-right: 0px;
 }
 
+.banner {
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  height: 100vh;
+  z-index: -1;
+}
