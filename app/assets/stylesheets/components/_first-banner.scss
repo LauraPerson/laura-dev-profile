@@ -1,0 +1,54 @@
+
+$shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
+
+@media (max-width: 800px) {
+  .banner {
+  margin: 50vh;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  height: 100vh;
+  z-index: -1;
+  }
+}
+
+
+.profile-banner {
+  position: absolute;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.banner {
+  margin: 20px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  height: 100vh;
+  z-index: -1;
+}
+
+.name-banner {
+  font-family: $header-font;
+  font-style: bold;
+  font-size: 70px;
+  color: $darkgreen;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 30vh;
+}
+
+.job-banner {
+  font-family: $header-font;
+  font-style: bold;
+  font-size: 50px;
+  color: $darkgreen;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50vh;
+}
