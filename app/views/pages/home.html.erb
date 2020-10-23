@@ -1,10 +1,7 @@
 <div class="container">
-  <div class="navbar">
-    <%= render "shared/navbar" %>
-  </div>
 
-  <div class="cv-body justify-content-center">
-    <div class="first-banner">
+  <div class="cv-body">
+    <div class="first-banner justify-content-center">
       <div id="particles" class="banner">
         <div class="name-banner d-flex justify-content-center">
           Laura Person
@@ -14,16 +11,50 @@
         </div>
       </div>
     </div>
-    <div class="profile-banner">
+    <div class="second-banner justify-content-center">
       <div class="about">
-        An anthropologist, a photographer, a web developer trained at Le Wagon.
+        <div class="title mb-5">
+          About Me
+        </div>
+        <div class="about-me mb-5">
+           I have a master's degree in social anthropology from <a href="https://www.ehess.fr">EHESS</a> (Ecole des Hautes Etudes en Sciences Sociales) in Paris. During my professional experiences on the field, I felt frustrated by the limited solutions we can offer to support certain social causes. I have always been attracted by the tools and solutions that technology can provide. This is why, in 2020, I followed a professional qualification as a web-developer at the School of <a href="https://www.lewagon.com">Le Wagon</a> in Rio de Janeiro, for 6 months. Today, I use my skills to bring solutions to the human and social problems that are important to me.
+        </div>
       </div>
-      <div class="skills">
-        Ruby on Rails
-      </div>
-      <div class="projects">
-        Sororitree
+      <div class="photo-div text-align-center">
+        <div class="myphoto mb-5 justify-content-center">
+        </div>
       </div>
     </div>
+
+-----------------
+
+          <div class="skills mb-5" id="skills">
+        <!-- Button trigger modal -->
+        <h1>
+          Skills
+        </h1>
+        <div class="row skills justify-content-center">
+          <% @skills.each do |skill| %>
+            <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class= "flip-card-inner">
+                <div class="flip-card-band-i <%= skill.level %>">
+                </div>
+                <div class="flip-card-band-ii <%= skill.level %>">
+                </div>
+                <div class="flip-card-front">
+                  <svg height="50px" width="50px" viewBox="0 0 128 128">
+                    <%= skill.svg_path.html_safe %>
+                  </svg>
+                </div>
+                <div class="flip-card-back">
+                  <%= skill.title %>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+----------------------------
+
   </div>
 </div>
+
