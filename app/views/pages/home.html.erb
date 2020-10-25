@@ -1,6 +1,6 @@
-<div class="container">
 
   <div class="cv-body">
+
     <div class="first-banner justify-content-center">
       <div id="particles" class="banner">
         <div class="name-banner d-flex justify-content-center">
@@ -26,35 +26,23 @@
       </div>
     </div>
 
------------------
-
-          <div class="skills mb-5" id="skills">
-        <!-- Button trigger modal -->
-        <h1>
-          Skills
-        </h1>
-        <div class="row skills justify-content-center">
-          <% @skills.each do |skill| %>
-            <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
-              <div class= "flip-card-inner">
-                <div class="flip-card-band-i <%= skill.level %>">
-                </div>
-                <div class="flip-card-band-ii <%= skill.level %>">
-                </div>
-                <div class="flip-card-front">
-                  <svg height="50px" width="50px" viewBox="0 0 128 128">
-                    <%= skill.svg_path.html_safe %>
-                  </svg>
-                </div>
-                <div class="flip-card-back">
-                  <%= skill.title %>
-                </div>
+    <div class="skills mb-5" id="skills">
+      <h1>
+        My Skills
+      </h1>
+      <div class="row skills justify-content-center">
+        <% @skills.each do |skill| %>
+          <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+                <svg height="50px" width="50px" viewBox="0 0 128 128">
+                  <%= skill.svg_path.html_safe %>
+                </svg>
+              <div class="flip-card-back">
+                <%= skill.title %>
               </div>
             </div>
-          <% end %>
-        </div>
-----------------------------
+        <% end %>
+      </div>
+    </div>
 
   </div>
-</div>
 
