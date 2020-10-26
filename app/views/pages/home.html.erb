@@ -33,7 +33,7 @@
       </h1>
       <div class="row skills justify-content-center">
         <% @skills.each do |skill| %>
-          <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="skills-card col-6 col-sm-4 col-md-3 col-lg-2">
             <svg height="50px" width="50px" viewBox="0 0 128 128">
               <%= skill.svg_path.html_safe %>
             </svg>
@@ -45,99 +45,74 @@
       </div>
     </div>
 
-      <div class="designs mb-5" id="design">
+    <div class="designs mb-5" id="design">
       <div class="design-card">
         <h1>
           My Design Skills
         </h1>
         <div class="row design justify-content-center">
           <% @designs.each do |design| %>
-            <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
-                  <svg height="50px" width="50px" viewBox="0 0 128 128">
-                    <%= design.svg_path.html_safe %>
-                  </svg>
-                <div class="flip-card-back">
-                  <%= design.title %>
-                </div>
+            <div class="skills-card col-6 col-sm-4 col-md-3 col-lg-2">
+              <svg height="50px" width="50px" viewBox="0 0 128 128">
+                <%= design.svg_path.html_safe %>
+              </svg>
+              <div class="flip-card-back">
+                <%= design.title %>
               </div>
+            </div>
           <% end %>
         </div>
       </div>
       <div class="design-photo">
-        <img src="/assets/devworker.png" alt="" class="form-img">
+        <img src="/assets/devworker.png" alt="" class="design-img">
       </div>
     </div>
-
-    </div>
-
-    ____________
 
     <div class="projects">
       <h1>
         My latest projects
       </h1>
-      <div class="row design justify-content-center">
-        <% @designs.each do |design| %>
-          <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="row projects justify-content-center">
+        <% @projects.each do |project| %>
+          <div class="project-card col-6 col-sm-4 col-md-3 col-lg-2">
             <svg height="50px" width="50px" viewBox="0 0 128 128">
-              <%= design.svg_path.html_safe %>
+              <%= project.svg_path.html_safe %>
             </svg>
-          <div class="flip-card-back">
-            <%= design.title %>
+          <div class="card-title">
+            <%= project.title %>
+          </div>
+          <div class="card-description">
+            <%= project.description %>
+          </div>
+          <div class="card-skills">
+            <%= project.skills %>
           </div>
       </div>
         <% end %>
     </div>
 
-    </div>
-
-    <div class="project-title">
-      My projects
-    </div>
-    <div class="cards-project">
-      <a href="https://search-4-class.herokuapp.com">
-        <div class="card-project" href="https://search-4-class.herokuapp.com">
-          <div class="search4class" style="background-image: url('images/search4class.png'); background-size: cover;">
-          </div>
-          <div class="text-project">
-            <div class="text-title">
-              Search 4 class
-            </div>
-            <div class="text-project-presentation">
-              Find a physicial or online class
-            </div>
-          </div>
+    <div class="contact">
+      <h1>
+        Contact me !
+      </h1>
+      <div class="d-flex">
+        <a href="https://www.linkedin.com/in/alexis-lenoir-857496ab/" class="icon-social-large mx-3">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/LauraPerson" class="icon-social-large mx-3">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:laura.martin.person@gmail.com" target="_blank" class="icon-social-large mx-3">
+          <i class="fas fa-envelope"></i>
         </a>
       </div>
-      <a href="http://www.sororitree.org">
-        <div class="card-project">
-          <div class="sororitree" style="background-image: url('images/sororitree.png'); background-size: cover;">
-          </div>
-          <div class="text-project">
-            <div class="text-title">
-              Sororitree
-            </div>
-            <div class="text-project-presentation">
-              A women network to share experiences
-            </div>
-          </div>
-        </div>
-      </a>
-      <a href="#">
-        <div class="card-project">
-          <div class="yours" style="background-image: url('images/header.jpg'); background-size: cover;">
-          </div>
-          <div class="text-project">
-            <div class="text-title">
-              Yours?
-            </div>
-            <div class="text-project-presentation">
-              Contact me and tell me what you need :)
-            </div>
-          </div>
-        </div>
-      </a>
+      <div class="contact-photo">
+        <img src="/assets/contact.png" alt="" class="contact-img">
+      </div>
     </div>
-
   </div>
+
+
+
+
 
