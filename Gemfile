@@ -19,6 +19,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 
 gem 'particlesjs-rails'
+gem 'bootstrap'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -29,8 +30,7 @@ gem 'particlesjs-rails'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 4.6.1'
-gem 'bootstrap', '~> 5.0.0.alpha1'
+gem 'font-awesome-sass'
 gem 'jquery-rails'
 
 
