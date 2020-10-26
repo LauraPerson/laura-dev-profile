@@ -1,8 +1,7 @@
 $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
 
-
 @media (max-width: 800px) {
-  .skills {
+  .designs {
     padding: 4%;
     margin-top: 10px;
     width: 100%;
@@ -11,11 +10,14 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
 }
 
 
-.skills {
+.designs {
+  padding: 4%;
+  margin-top: 10px;
   width: 100%;
-  height: auto;
+  height: 60vh;
   z-index: -1;
-}
+  display: flex;
+  }
 
 
 .flip-card {
@@ -27,8 +29,19 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   color: $darkgreen;
 }
 
-h1 {
-  color: $darkgreen;
-  font-family: $header-font;
-  font-size: 50px;
+.design-card {
+  width: 50%;
+  height: 50vh;
+
+}
+
+.design-photo {
+  width: 50%;
+}
+
+
+img {
+  width: 70%;
+  background-repeat: no-repeat;
+  z-index: -1;
 }

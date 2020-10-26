@@ -11,6 +11,7 @@
         </div>
       </div>
     </div>
+
     <div class="second-banner justify-content-center">
       <div class="about">
         <div class="title mb-5">
@@ -28,20 +29,114 @@
 
     <div class="skills mb-5" id="skills">
       <h1>
-        My Skills
+        My Dev Skills
       </h1>
       <div class="row skills justify-content-center">
         <% @skills.each do |skill| %>
           <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
-                <svg height="50px" width="50px" viewBox="0 0 128 128">
-                  <%= skill.svg_path.html_safe %>
-                </svg>
-              <div class="flip-card-back">
-                <%= skill.title %>
-              </div>
+            <svg height="50px" width="50px" viewBox="0 0 128 128">
+              <%= skill.svg_path.html_safe %>
+            </svg>
+            <div class="flip-card-back">
+              <%= skill.title %>
             </div>
+          </div>
         <% end %>
       </div>
+    </div>
+
+      <div class="designs mb-5" id="design">
+      <div class="design-card">
+        <h1>
+          My Design Skills
+        </h1>
+        <div class="row design justify-content-center">
+          <% @designs.each do |design| %>
+            <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+                  <svg height="50px" width="50px" viewBox="0 0 128 128">
+                    <%= design.svg_path.html_safe %>
+                  </svg>
+                <div class="flip-card-back">
+                  <%= design.title %>
+                </div>
+              </div>
+          <% end %>
+        </div>
+      </div>
+      <div class="design-photo">
+        <img src="/assets/devworker.png" alt="" class="form-img">
+      </div>
+    </div>
+
+    </div>
+
+    ____________
+
+    <div class="projects">
+      <h1>
+        My latest projects
+      </h1>
+      <div class="row design justify-content-center">
+        <% @designs.each do |design| %>
+          <div class="flip-card col-6 col-sm-4 col-md-3 col-lg-2">
+            <svg height="50px" width="50px" viewBox="0 0 128 128">
+              <%= design.svg_path.html_safe %>
+            </svg>
+          <div class="flip-card-back">
+            <%= design.title %>
+          </div>
+      </div>
+        <% end %>
+    </div>
+
+    </div>
+
+    <div class="project-title">
+      My projects
+    </div>
+    <div class="cards-project">
+      <a href="https://search-4-class.herokuapp.com">
+        <div class="card-project" href="https://search-4-class.herokuapp.com">
+          <div class="search4class" style="background-image: url('images/search4class.png'); background-size: cover;">
+          </div>
+          <div class="text-project">
+            <div class="text-title">
+              Search 4 class
+            </div>
+            <div class="text-project-presentation">
+              Find a physicial or online class
+            </div>
+          </div>
+        </a>
+      </div>
+      <a href="http://www.sororitree.org">
+        <div class="card-project">
+          <div class="sororitree" style="background-image: url('images/sororitree.png'); background-size: cover;">
+          </div>
+          <div class="text-project">
+            <div class="text-title">
+              Sororitree
+            </div>
+            <div class="text-project-presentation">
+              A women network to share experiences
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card-project">
+          <div class="yours" style="background-image: url('images/header.jpg'); background-size: cover;">
+          </div>
+          <div class="text-project">
+            <div class="text-title">
+              Yours?
+            </div>
+            <div class="text-project-presentation">
+              Contact me and tell me what you need :)
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
 
   </div>
