@@ -29,7 +29,8 @@ gem 'particlesjs-rails'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 4.6.1'
+gem 'font-awesome-sass'
+
 gem 'bootstrap', '~> 5.0.0.alpha1'
 gem 'jquery-rails'
 

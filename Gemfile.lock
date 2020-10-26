@@ -223,7 +223,7 @@ DEPENDENCIES
   bootstrap (~> 5.0.0.alpha1)
   byebug
   capybara (>= 2.15)
-  font-awesome-sass (~> 4.6.1)
+  font-awesome-sass
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.2)
