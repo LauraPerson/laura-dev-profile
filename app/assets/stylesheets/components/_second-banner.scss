@@ -1,36 +1,52 @@
 $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
 
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .second-banner {
     padding: 4%;
     margin-top: 10px;
     width: 100%;
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .photo-div {
+
+  .img-profile {
+    height: 300px;
+    width: 400px;
+    margin-top: 16px;
+    background-image: url('profilepicture.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1001px) {
+  .second-banner {
+    padding: 4%;
+    margin-top: 10px;
+    display: flex;
     width: 100%;
-    justify-content: center;
-    text-align: center;
-}
+  }
+
+  .img-profile {
+    width: 40%;
+    max-width: 450px;
+    background-image: url('profilepicture.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
 }
 
 
-.second-banner {
-  padding: 4%;
-  margin-top: 10px;
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  z-index: -1;
-}
+
 
 .about {
-  width: 95%;
+  width: 80%;
   color: $darkgreen;
-  height: 100%;
   box-shadow: $shadow;
-  margin-bottom: 10%;
   margin-right: 5%;
   border-radius: 10px;
   padding: 50px;
@@ -47,7 +63,6 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   font-size: 16px;
   font-family: $body-font;
   top:0px;
-
 }
 
 .photo-div {
@@ -55,17 +70,4 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   display: flex;
   justify-content: center;
   text-align: center;
-}
-
-.myphoto {
-  width: 100%;
-  background-image: url("profilepicture.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-  box-shadow: $shadow;
-  height: 100%;
-  border-radius: 10px;
-  max-width: 100%;
-  max-height: 100%;
 }
