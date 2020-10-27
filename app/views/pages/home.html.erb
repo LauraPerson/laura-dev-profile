@@ -34,7 +34,7 @@
             <svg height="50px" width="50px" viewBox="0 0 128 128">
               <%= skill.svg_path.html_safe %>
             </svg>
-            <div class="flip-card-back">
+            <div class="dev-skill-title">
               <%= skill.title %>
             </div>
           </div>
@@ -47,6 +47,7 @@
         <h1>
           My Design Skills
         </h1>
+
         <div class="row design justify-content-center">
           <% @designs.each do |design| %>
             <div class="design-skills-card col-6 col-sm-4 col-md-3 col-lg-2">
@@ -59,6 +60,8 @@
             </div>
           <% end %>
         </div>
+
+
       </div>
       <div class="design-photo">
         <img src="/assets/devworker.png" alt="" class="design-img">
@@ -67,33 +70,86 @@
 
     <div class="projects">
       <h1>
-        My latests projects
+        My latest projects
       </h1>
+
+
       <div class="row projects justify-content-center">
-        <% @projects.each do |project| %>
-          <div class="project-card col-6 col-sm-4 col-md-3 col-lg-2">
-            <svg height="50px" width="50px" viewBox="0 0 128 128">
-              <%= project.svg_path.html_safe %>
-            </svg>
-          <div class="card-title">
-            <%= project.title %>
+          <div class="project-card col-lg-3 col-sm-6"" href="http://www.sororitree.org">
+            <%= link_to "http://www.grattetonchomage.fr" do %>
+              <div class="card-img">
+               <img src="/assets/sororitree.png" alt="" class="project-img">
+              </div>
+              <div class="card-title">
+                Sororitree
+              </div>
+              <div class="card-description">
+                Sororitree is a web app where women can chat when they have a problem
+              </div>
+              <div class="card-skills">
+                <br>Ruby on Rails, Heroku, Device, Pundit, Chatbox, Cloudinary
+              </div>
+            <% end %>
           </div>
-          <div class="card-description">
-            <%= project.description %>
+           <div class="project-card col-lg-3 col-sm-6" href="https://search-4-class.herokuapp.com">
+            <%= link_to "http://www.grattetonchomage.fr" do %>
+              <div class="card-img">
+               <img src="/assets/search4class.png" alt="" class="project-img">
+              </div>
+              <div class="card-title">
+                Search For Class
+              </div>
+              <div class="card-description">
+                Search 4 Class is a web app where people can find classes
+              </div>
+              <div class="card-skills">
+                <br>Ruby on Rails, Heroku, Cloudinary, Mapbox
+              </div>
+            <% end %>
           </div>
-          <div class="card-skills">
-            <%= project.skills %>
+
+           <div class="project-card col-lg-3 col-sm-6"" href="https://www.ohmypreset.com">
+            <%= link_to "http://www.grattetonchomage.fr" do %>
+              <div class="card-img">
+               <img src="/assets/ohmypreset.png" alt="" class="project-img">
+              </div>
+              <div class="card-title">
+                Oh My Preset!
+              </div>
+              <div class="card-description">
+                A site to sell pre-settings files for their instagram photos
+              </div>
+              <div class="card-skills">
+               <br> A wordpress project using Stripe
+              </div>
+            <% end %>
           </div>
+
+          <div class="project-card col-lg-3 col-sm-6"" href="http://www.grattetonchomage.fr">
+            <%= link_to "http://www.grattetonchomage.fr" do %>
+              <div class="card-img">
+               <img src="/assets/grattetonchomage.png" alt="" class="project-img">
+              </div>
+              <div class="card-title">
+                Gratte ton chômage
+              </div>
+              <div class="card-description">
+                App to facilitate access to unemployment benefits
+              </div>
+              <div class="card-skills">
+                <br>Ruby on Rails, AJAX, PDF Export, Allowance calculation
+              </div>
+            <% end %>
+          </div>
+
       </div>
-        <% end %>
-    </div>
 
     <div class="contact">
       <h1>
         Contact me !
       </h1>
       <div class="contact-links d-flex">
-        <a href="https://www.linkedin.com/in/alexis-lenoir-857496ab/" class="icon-social-large mx-3">
+        <a href="https://www.linkedin.com/in/laura-person-a94a8a110/" class="icon-social-large mx-3">
             <i class="fab fa-linkedin-in"></i>
         </a>
         <a href="https://github.com/LauraPerson" class="icon-social-large mx-3">
