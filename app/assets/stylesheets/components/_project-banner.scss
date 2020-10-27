@@ -15,9 +15,39 @@
   padding: 15px;
   margin: 15px;
   color: $darkgreen;
+  min-height: 40vh;
+}
+
+.project-card {
+  &:hover {
+    box-shadow:  0 7px 30px 0px rgba(150,170,180,1);
+  }
 }
 
 .contact {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.card-img {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-style: bold;
+  font-size: 30px;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: $darkgreen;
 }
