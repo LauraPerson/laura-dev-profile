@@ -20,19 +20,14 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   }
 
 
-.flip-card {
-  box-shadow: $shadow;
-  border-radius: 10px;
-  font-family: $body-font;
-  padding: 15px;
-  margin: 15px;
-  color: $darkgreen;
-}
-
 .design-card {
   width: 50%;
   height: 50vh;
 
+}
+
+.design-title-card {
+  margin-top: 10px;
 }
 
 .design-photo {
@@ -44,4 +39,13 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   width: 70%;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.design-skills-card {
+  box-shadow: $shadow;
+  border-radius: 10px;
+  font-family: $body-font;
+  padding: 20px;
+  margin: 15px;
+  color: $darkgreen;
 }

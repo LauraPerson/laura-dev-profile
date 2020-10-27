@@ -18,7 +18,7 @@
           About Me
         </div>
         <div class="about-me mb-5">
-           I have a master's degree in social anthropology from <a href="https://www.ehess.fr">EHESS</a> (Ecole des Hautes Etudes en Sciences Sociales) in Paris. During my professional experiences on the field, I felt frustrated by the limited solutions we can offer to support certain social causes. I have always been attracted by the tools and solutions that technology can provide. This is why, in 2020, I followed a professional qualification as a web-developer at the School of <a href="https://www.lewagon.com">Le Wagon</a> in Rio de Janeiro, for 6 months. Today, I use my skills to bring solutions to the human and social problems that are important to me.
+           I have a master's degree in social anthropology from <a href="https://www.ehess.fr">EHESS</a> (Ecole des Hautes Etudes en Sciences Sociales) in Paris. <br><br>During my professional experiences on the field, I felt frustrated by the limited solutions we can offer to support certain social causes. I have always been attracted by the tools and solutions that technology can provide. This is why, in 2020, I followed a professional qualification as a web-developer at the School of <a href="https://www.lewagon.com">Le Wagon</a> in Rio de Janeiro, for 6 months. <br><br>Today, I use my skills to bring solutions to the human and social problems that are important to me.
         </div>
       </div>
       <div class="img-profile"></div>
@@ -49,11 +49,11 @@
         </h1>
         <div class="row design justify-content-center">
           <% @designs.each do |design| %>
-            <div class="skills-card col-6 col-sm-4 col-md-3 col-lg-2">
+            <div class="design-skills-card col-6 col-sm-4 col-md-3 col-lg-2">
               <svg height="50px" width="50px" viewBox="0 0 128 128">
                 <%= design.svg_path.html_safe %>
               </svg>
-              <div class="flip-card-back">
+              <div class="design-title-card">
                 <%= design.title %>
               </div>
             </div>
@@ -67,7 +67,7 @@
 
     <div class="projects">
       <h1>
-        My latest projects
+        My latests projects
       </h1>
       <div class="row projects justify-content-center">
         <% @projects.each do |project| %>
@@ -92,7 +92,7 @@
       <h1>
         Contact me !
       </h1>
-      <div class="d-flex">
+      <div class="contact-links d-flex">
         <a href="https://www.linkedin.com/in/alexis-lenoir-857496ab/" class="icon-social-large mx-3">
             <i class="fab fa-linkedin-in"></i>
         </a>

@@ -53,20 +53,99 @@ skills = [{
 
 designs = [{
   title: "Photoshop",
-  svg_path: '<path style="fill:#2488FF;" d="M326.27,333.414c-16.269,0-37.082-7.252-47.173-13.307l-9.743,39.196
+  svg_path: '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 495 495" style="enable-background:new 0 0 495 495;" xml:space="preserve">
+<g>
+  <polygon style="fill:#006DF0;" points="247.5,0 247.5,40 455,40 455,455 247.5,455 247.5,495 495,495 495,0  "/>
+  <polygon style="fill:#2488FF;" points="40,455 40,40 247.5,40 247.5,0 0,0 0,495 247.5,495 247.5,455  "/>
+  <path style="fill:#2488FF;" d="M326.27,333.414c-16.269,0-37.082-7.252-47.173-13.307l-9.743,39.196
     c13.307,7.252,33.866,12.299,56.916,12.299c50.361,0,76.376-24.124,76.376-57.012c-0.379-25.891-14.412-42.887-47.932-54.333
     c-21.537-7.631-28.318-11.952-28.318-20.213c0-8.988,7.506-14.412,20.813-14.412c15.136,0,30.177,5.803,38.185,10.122l9.714-37.839
     c-10.817-5.424-29.168-10.091-49.76-10.091c-43.58,0-71.676,24.88-71.676,57.644c-0.379,20.938,13.655,40.774,50.139,52.976
-    c20.432,6.906,25.856,11.194,25.856,20.182C349.668,327.644,342.762,333.414,326.27,333.414z"/>'
+    c20.432,6.906,25.856,11.194,25.856,20.182C349.668,327.644,342.762,333.414,326.27,333.414z"/>
+  <path style="fill:#2488FF;" d="M146.687,281.194c5.045,0.726,11.573,0.978,18.698,0.978c32.417,0,60.23-7.883,78.834-25.479
+    c14.539-13.686,22.42-33.899,22.42-57.643c0-23.777-10.343-43.99-25.983-56.194c-16.146-13.055-40.268-19.456-74.167-19.456
+    c-33.489,0-57.264,2.21-74.136,5.046v239.593h54.333V281.194z M146.782,167.012c3.847-1.105,11.479-2.209,22.547-2.209
+    c27.465,0,42.885,13.276,43.01,35.572c0,24.911-18.132,39.669-47.3,39.669c-7.884,0-13.559-0.346-18.257-1.357V167.012z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>'
 },
 {
   title: "InDesign",
-  svg_path: '<path style="fill:#EA348B;" d="M270.279,371.601c21.615,0,42.008-9.72,52.637-28.569h0.789l2.293,24.695h46.47
+  svg_path: '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 495 495" style="enable-background:new 0 0 495 495;" xml:space="preserve">
+<g>
+  <polygon style="fill:#C61469;" points="247.5,0 247.5,40 455,40 455,455 247.5,455 247.5,495 495,495 495,0  "/>
+  <polygon style="fill:#EA348B;" points="40,455 40,40 247.5,40 247.5,0 0,0 0,495 247.5,495 247.5,455  "/>
+  <rect x="122.532" y="135.729" style="fill:#EA348B;" width="52.634" height="231.999"/>
+  <path style="fill:#EA348B;" d="M270.279,371.601c21.615,0,42.008-9.72,52.637-28.569h0.789l2.293,24.695h46.47
     c-0.591-11.261-1.382-31.335-1.382-50.302V123.399h-52.319v91.205h-0.632c-7.549-11.698-23.75-18.969-44.456-18.969
     c-40.269,0-75.793,32.72-75.318,89.546C198.361,337.499,230.29,371.601,270.279,371.601z M287.43,235.626
     c16.203,0,27.464,11.736,30.547,25.764c0.475,2.766,0.791,6.64,0.791,9.406v21.931c0,4.464-0.316,8.338-1.385,12.052
     c-3.082,14.819-15.135,25.132-30.269,25.132c-21.772,0-35.802-17.901-35.802-46.431
-    C251.312,256.926,263.641,235.626,287.43,235.626z"/>'
+    C251.312,256.926,263.641,235.626,287.43,235.626z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>'
 },
 {
   title: "Lightroom",
@@ -117,17 +196,13 @@ designs = [{
 
 {
   title: "figma",
-  svg_path: '<path style="fill:#00B6BD;" d="M277.83,371.601h55v-89.585c0-4.408,0.36-8.817,1.035-12.322
-    c3.689-17.046,17.403-27.929,37.778-27.929c6.16,0,10.746,0.719,14.748,1.573V191.53c-4.002-0.719-6.475-0.719-11.556-0.719
-    c-17.046,0-38.676,10.927-47.808,36.562h-1.394l-1.751-32.695h-47.448c0.722,15.289,1.397,32.335,1.397,58.329V371.601z"/>'
+  svg_path: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><defs><style>.cls-1{fill:#525967;}.cls-2{fill:#454b57;}.cls-3{fill:#0acf83;}.cls-4{fill:#a259ff;}.cls-5{fill:#f24e1e;}.cls-6{fill:#ff7262;}.cls-7{fill:#1abcfe;}.cls-8{fill:none;}</style></defs><title>Figma_Social_Interface</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1_copy" data-name="Layer 1 copy"><g id="Figma_icon" data-name="Figma icon"><g id="ads_manager" data-name="ads manager"><rect class="cls-1" x="5.64" y="5.64" width="13.72" height="13.72" rx="2" ry="2" fill="#525967"/><path class="cls-2" d="M17.36 6.24a1.4 1.4 0 0 1 1.4 1.4v9.72a1.4 1.4 0 0 1-1.4 1.4H7.64a1.4 1.4 0 0 1-1.4-1.4V7.64a1.4 1.4 0 0 1 1.4-1.4h9.72m0-.6H7.64a2 2 0 0 0-2 2v9.72a2 2 0 0 0 2 2h9.72a2 2 0 0 0 2-2V7.64a2 2 0 0 0-2-2z" fill="#454b57"/><path id="path0_fill" data-name="path0 fill" class="cls-3" d="M10.79 17.63a1.71 1.71 0 0 0 1.71-1.71v-1.71h-1.71a1.71 1.71 0 1 0 0 3.42z" fill="#0acf83"/><path id="path1_fill" data-name="path1 fill" class="cls-4" d="M9.08 12.5a1.71 1.71 0 0 1 1.71-1.71h1.71v3.42h-1.71a1.71 1.71 0 0 1-1.71-1.71z" fill="#a259ff"/><path id="path1_fill-2" data-name="path1 fill" class="cls-5" d="M9.08 9.08a1.71 1.71 0 0 1 1.71-1.71h1.71v3.42h-1.71a1.71 1.71 0 0 1-1.71-1.71z" fill="#f24e1e"/><path id="path2_fill" data-name="path2 fill" class="cls-6" d="M12.5 7.38h1.71a1.71 1.71 0 1 1 0 3.42H12.5z" fill="#ff7262"/><path id="path3_fill" data-name="path3 fill" class="cls-7" d="M15.92 12.5a1.71 1.71 0 1 1-1.71-1.71 1.71 1.71 0 0 1 1.71 1.71z" fill="#1abcfe"/></g><path class="cls-8" fill="none" d="M0 0h25v25H0z"/></g></g></g><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="figma,social,interface" dc:description="figma,social,interface" dc:publisher="Iconscout" dc:date="2018-02-01" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Bohdan Kononets</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>'
 }
 ]
 
 projects = [{
   title: "Sororitree",
-  svg_path: '<path style="fill:#00B6BD;" d="M277.83,371.601h55v-89.585c0-4.408,0.36-8.817,1.035-12.322
-    c3.689-17.046,17.403-27.929,37.778-27.929c6.16,0,10.746,0.719,14.748,1.573V191.53c-4.002-0.719-6.475-0.719-11.556-0.719
-    c-17.046,0-38.676,10.927-47.808,36.562h-1.394l-1.751-32.695h-47.448c0.722,15.289,1.397,32.335,1.397,58.329V371.601z"/>',
+  svg_path: '/images/703.jpg',
   description: "A nice network for women",
   skills: "Ruby on Rails"
 },
