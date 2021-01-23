@@ -20,7 +20,6 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'particlesjs-rails'
 gem 'bootstrap'
-gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
