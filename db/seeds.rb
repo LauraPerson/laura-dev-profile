@@ -197,7 +197,22 @@ designs = [{
 {
   title: "figma",
   svg_path: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><defs><style>.cls-1{fill:#525967;}.cls-2{fill:#454b57;}.cls-3{fill:#0acf83;}.cls-4{fill:#a259ff;}.cls-5{fill:#f24e1e;}.cls-6{fill:#ff7262;}.cls-7{fill:#1abcfe;}.cls-8{fill:none;}</style></defs><title>Figma_Social_Interface</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1_copy" data-name="Layer 1 copy"><g id="Figma_icon" data-name="Figma icon"><g id="ads_manager" data-name="ads manager"><rect class="cls-1" x="5.64" y="5.64" width="13.72" height="13.72" rx="2" ry="2" fill="#525967"/><path class="cls-2" d="M17.36 6.24a1.4 1.4 0 0 1 1.4 1.4v9.72a1.4 1.4 0 0 1-1.4 1.4H7.64a1.4 1.4 0 0 1-1.4-1.4V7.64a1.4 1.4 0 0 1 1.4-1.4h9.72m0-.6H7.64a2 2 0 0 0-2 2v9.72a2 2 0 0 0 2 2h9.72a2 2 0 0 0 2-2V7.64a2 2 0 0 0-2-2z" fill="#454b57"/><path id="path0_fill" data-name="path0 fill" class="cls-3" d="M10.79 17.63a1.71 1.71 0 0 0 1.71-1.71v-1.71h-1.71a1.71 1.71 0 1 0 0 3.42z" fill="#0acf83"/><path id="path1_fill" data-name="path1 fill" class="cls-4" d="M9.08 12.5a1.71 1.71 0 0 1 1.71-1.71h1.71v3.42h-1.71a1.71 1.71 0 0 1-1.71-1.71z" fill="#a259ff"/><path id="path1_fill-2" data-name="path1 fill" class="cls-5" d="M9.08 9.08a1.71 1.71 0 0 1 1.71-1.71h1.71v3.42h-1.71a1.71 1.71 0 0 1-1.71-1.71z" fill="#f24e1e"/><path id="path2_fill" data-name="path2 fill" class="cls-6" d="M12.5 7.38h1.71a1.71 1.71 0 1 1 0 3.42H12.5z" fill="#ff7262"/><path id="path3_fill" data-name="path3 fill" class="cls-7" d="M15.92 12.5a1.71 1.71 0 1 1-1.71-1.71 1.71 1.71 0 0 1 1.71 1.71z" fill="#1abcfe"/></g><path class="cls-8" fill="none" d="M0 0h25v25H0z"/></g></g></g><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="figma,social,interface" dc:description="figma,social,interface" dc:publisher="Iconscout" dc:date="2018-02-01" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Bohdan Kononets</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>'
-}
+},
+  title: "Illustrator",
+  svg_path: '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="-362.4 459.1 500 500" enable-background="new -362.4 459.1 500 500" xml:space="preserve">
+<radialGradient id="SVGID_1_" cx="-1002.9115" cy="1088.6691" r="0.6375" gradientTransform="matrix(545.6736 0 0 -528.3113 547071.625 575749.0625)" gradientUnits="userSpaceOnUse">
+  <stop  offset="0" style="stop-color:#423325;stop-opacity:0.98"/>
+  <stop  offset="1" style="stop-color:#1C0A00"/>
+</radialGradient>
+<path fill="url(#SVGID_1_)" d="M-341.6,493h457.7v445.3h-457.7V493z"/>
+<path fill="#FF7F18" d="M-341.6,493h457.7v445.3h-457.7V493z M-362.4,959.1H137V472.2h-499.4V959.1z M-35.3,645.8
+  c0-1.7,0.6-2.5,2.5-2.5h32.7c1.7,0,2.5,0.6,2.5,2.5v164.2c0,1.7-0.4,2.5-2.5,2.5h-32.3c-2.1,0-2.7-1-2.7-2.7v-164H-35.3L-35.3,645.8
+  z M-37.6,598.5c0-13.3,9.4-21.2,21.2-21.2c12.7,0,21.2,8.5,21.2,21.2c0,13.7-8.9,21.2-21.6,21.2C-28.8,619.8-37.6,612.3-37.6,598.5z
+   M-131.2,714.2c-5.8-23.1-19.6-73.4-24.8-97.8h-0.4c-4.4,24.3-15.4,65.5-24.1,97.8H-131.2L-131.2,714.2z M-189,747.9l-16.4,62.4
+  c-0.4,1.7-1,2.1-3.1,2.1h-30.6c-2.1,0-2.5-0.6-2.1-3.1l59.1-206.8c1-3.7,1.7-7.1,2.1-17.3c0-1.5,0.6-2.1,1.7-2.1h43.7
+  c1.5,0,2.1,0.4,2.5,2.1l66.2,224.5c0.4,1.7,0,2.7-1.7,2.7h-34.5c-1.7,0-2.7-0.4-3.1-1.9l-17.1-62.6H-189L-189,747.9z"/>
+</svg>'
 ]
 
 projects = [{
@@ -229,7 +244,7 @@ projects = [{
     c-17.046,0-38.676,10.927-47.808,36.562h-1.394l-1.751-32.695h-47.448c0.722,15.289,1.397,32.335,1.397,58.329V371.601z"/>',
   description: "A nice network for women",
   skills: "Ruby on Rails"
-},
+}
 ]
 
 designs.each do |design|
