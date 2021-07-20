@@ -40,6 +40,11 @@
   border-bottom-right-radius: 8px;
   background-size: contain;
   background-repeat: no-repeat;
+  img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
 }
 
 .project-img {
