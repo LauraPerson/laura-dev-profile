@@ -25,7 +25,11 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   padding: 15px;
   margin: 15px;
   color: $darkgreen;
+  &:hover{
+   box-shadow:  0 7px 30px 0px rgba(150,170,180,1);
+  }
 }
+
 
 h1 {
   color: $darkgreen;
