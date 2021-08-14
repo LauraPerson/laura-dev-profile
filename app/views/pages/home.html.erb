@@ -15,10 +15,10 @@
   <div class="second-banner justify-content-center">
     <div class="about">
       <div class="title mb-5">
-        À propos de moi
+        About me
       </div>
       <div class="about-me mb-5">
-         Je suis diplômée d'un master en anthropologie sociale de l'<a href="https://www.ehess.fr">EHESS</a> (École des Hautes Etudes en Sciences Sociales) Paris. <br><br>Lors de mes différentes expériences professionnelles sur le terrain, je me suis sentie démunie face à certaines situations sociales auxquelles je pouvais être confrontée. J'ai toujours été attirée par les outils et les réponses que peut apporter la technologie. C'est pourquoi, en 2020, j'ai décidé de suivre une qualification professionnelle de web-développeuse à l'école <a href="https://www.lewagon.com">Le Wagon</a> à Rio de Janeiro pendant 6 mois. <br><br>Aujourd'hui, j'utilise mes compétences pour apporter des solutions aux problèmes humains et sociaux qui me tiennent à coeur.
+         Je suis diplômée d'un master en anthropologie sociale de l'<a href="https://www.ehess.fr">EHESS</a> (École des Hautes Etudes en Sciences Sociales) Paris. <br><br>Lors de mes différentes expériences professionnelles sur le terrain, je me suis sentie démunie face à certaines situations sociales auxquelles je pouvais être confrontée. J'ai toujours été attirée par les outils et les réponses que peut apporter la technologie. C'est pourquoi, en 2020, j'ai décidé de suivre une qualification professionnelle de web-développeuse à l'école <a href="https://www.lewagon.com">Le Wagon</a> à Rio de Janeiro pendant 6 mois. <br><br>Aujourd'hui, j'utilise mes compétences pour apporter des solutions aux problèmes humains et sociaux qui me tiennent à coeur. 
       </div>
     </div>
     <div class="img-profile"></div>
@@ -63,10 +63,36 @@
 
 
     </div>
-    <div class="design-photo">
+    <div class="illustration-photo">
       <img src="/assets/devworker.png" alt="" class="design-img">
     </div>
   </div>
+
+  <h1 class="mb-5">
+    Activités d'enseignement
+  </h1>
+
+  <div class="d-flex">
+    <div class="illustration-photo">
+      <img src="/assets/plants.png" alt="" class="plants">
+    </div>
+    <div class="teaching">
+      <div class="card-title d-flex align-items-center justify-content-center">
+        <i class="fas fa-seedling"></i>
+        &nbsp Teacher Assistant
+      </div>
+      <p>Interventions régulières au Wagon Paris en tant que teacher assistant sur les différents modules d'enseignements</p>
+      <div class="d-flex align-items-center justify-content-center"><h1>23</h1> &nbsp jours sur <h1> 3 </h1> &nbsp batchs</div>
+      <div class="card-title d-flex align-items-center justify-content-center">
+        <i class="fas fa-seedling"></i>
+        &nbsp Interventions
+      </div>
+      <p>3 interventions chez Social Builder</p>
+    </div>
+  </div>
+
+
+
 
   <div class="projects">
     <h1>
@@ -77,8 +103,7 @@
       <% @projects.each do |project| %>
           <div class="project-card col-lg-3 col-sm-6">
             <%= link_to project.link do %>
-              <div class="card-img" style="background-image: url( /assets/<%= project.title.downcase.gsub(/\s+/, "").parameterize %>.png">
-               <img src=" /assets/<%= project.title.downcase.gsub(/\s+/, "").parameterize %>.png" alt="" class="project-img">
+              <div class="card-img" style="background-image: url(/assets/<%=project.title.downcase.gsub(/\s+/, "").parameterize %>.png">
               </div>
               <div class="card-title">
                 <%= project.title %>
