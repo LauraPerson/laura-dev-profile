@@ -15,10 +15,8 @@ require("particles.js")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 import { particleJS } from '../components/particles';
-import { counter }  from '../components/counter.js';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   particleJS();
-  counter();
 });

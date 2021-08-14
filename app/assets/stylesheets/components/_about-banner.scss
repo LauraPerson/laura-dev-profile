@@ -1,7 +1,5 @@
 $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
 
-
-
 .about {
   width: 80%;
   color: $darkgreen;
@@ -21,7 +19,6 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
 .about-me {
   font-size: 14px;
   font-family: $body-font;
-  top:0px;
 }
 
 
@@ -32,6 +29,10 @@ $shadow:  0 7px 30px 0px rgba(150,170,180,0.5);
   text-align: center;
 }
 
+
+.illustration-photo {
+  width: 50%;
+}
 
 @media (min-width: 1001px) {
   .second-banner {
